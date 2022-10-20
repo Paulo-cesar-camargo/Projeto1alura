@@ -1,0 +1,173 @@
+:root{
+    --branco-principal:#ffffff;
+    --cinza-secundario:#C0C0C0;
+    --botao-azul:#0000FF;
+    --cor-de-fundo:#01010f;
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+/**{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    .container__combo{
+    margin-top: 20px;
+    /*margin: 0 0 0 190px;
+
+}*/
+
+.principal{
+    background-image: url(img/Background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;/*aqui centraliza td que esta dentro do bloco*/
+    
+}
+.container__titulo{
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+    /*text-align: center;
+    margin-top: 60px;
+    margin: 0 0 0 100px;*/
+
+}
+.container{
+    
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    display: block;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 10px;
+    /*text-align: center;*/
+    text-decoration: none;
+    /*margin: 0 0 0 120px;*/
+    
+
+}
+.container__btsecundario{
+    background-color: transparent;
+    border: 1px solid var(--branco-principal);
+    display: block;
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 10px;
+    /*text-align: center;*/
+    text-decoration: none;
+    /*margin: 0 0 0 120px;*/
+    
+   
+}
+.container__aviso{
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    margin-top: 10px;
+    /*text-align: center;*/
+
+}
+
+.container__caixa{
+    margin: 0 6em;
+}
+/*CSS DA SEGUNDA PARTE DO PROJETO*/
+.container{
+    align-items: center;
+    text-align: center;
+    
+}
+.secundario{
+    text-align: left;
+    margin: 0 6em;
+    
+}
+h2{
+    font-size: 48px;
+}
+.container__celular{
+    position: absolute;
+	top: 870px;
+	right: 1100px;
+}
+/*CSS DA TERCEIRA PARTE*/
+.terceiro{
+    grid-template-columns: 55% 45%;
+}
+.p{
+    margin-left: 10px;
+}
+
+.container__btcombo{
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+.texto__combo{
+    text-align: left ;
+    margin: 0 6em;
+}
+/*CSS DA QUARTA PARTE*/
+.container__tquatro{
+    grid-area: span;
+}
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;/*cenralizou os itens da lista */
+    list-style-type: none;/*tipo de estilos da lista ex tira as marcaçoes*/
+    color: var(--branco-principal);
+    text-decoration: none;
+}
+
+.dispositivos{
+    text-align: center;
+    font-size: 32px;
+}
+/*rodape*/
+.logotipo__alura{
+    text-align: center;
+}
+.lista__final{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    text-decoration: none;
+    word-spacing: 5px;
+    cursor: pointer;
+    
+}
+.txt{
+    margin: 0 6em 0 6em;
+}
+.lista{
+  margin-left: 2em;
+  
+} 
+.lista:hover{
+    transform: scale(1.2)
+    
+}
+
+.zoom:hover{
+    transform: scale(1.1)
+}
+footer{
+    margin: 0 0 40px 0;
+}
